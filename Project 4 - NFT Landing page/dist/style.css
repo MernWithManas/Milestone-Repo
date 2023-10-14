@@ -38,3 +38,29 @@
     background-origin: border-box;
     background-clip: content-box, border-box;
 }
+
+.gradient-border-curve {
+    border-top: double transparent;
+    border-bottom: double transparent;
+    border-right: double transparent;
+    border-radius: 10% 25% 25% 10% / 0% 50% 50% 0% ;  
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), 
+                      linear-gradient(to top, rgb(68, 168, 255), rgb(206, 59, 255));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    height: 600px;
+}
+
+.light-border{
+    border: 3px double;
+    border-radius: 20px; 
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), 
+                      linear-gradient(to top left, rgb(255, 211, 89), transparent);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.footer-border{
+    border-top: 10px double;
+    background-image: linear-gradient(to right, rgb(68, 168, 255), rgb(206, 59, 255));
+}
