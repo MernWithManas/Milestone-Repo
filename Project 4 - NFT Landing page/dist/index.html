@@ -12,66 +12,70 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="bg-purple-900">
+<body class="bg-[#160e2a]">
 
-    <!-- HEADER SECTION - I !!!!!!!!!!!!!!!!!!! -->
+    <div class="hero-bg">
+        <!-- HEADER SECTION - I !!!!!!!!!!!!!!!!!!! -->
 
-    <header class="flex text-white justify-between  text-center px-20 py-3">
-        <img class="flex items-center justify-center" src="../assets/logo.png">
+        <header class="flex relative z-10 text-white justify-between  text-center px-20 py-3">
+            <img class="flex items-center justify-center" src="../assets/logo.png">
 
-        <ul class="flex gap-12 items-center uppercase">
-            <li>Market Place</li>
-            <li>About</li>
-            <li>Resources</li>
-            <li>Faq</li>
-        </ul>
+            <ul class="flex gap-12 items-center uppercase">
+                <li>Market Place</li>
+                <li>About</li>
+                <li>Resources</li>
+                <li>Faq</li>
+            </ul>
 
-        <div class="flex gap-3">
-            <button class="gradient-border-nav">Log In</button>
-            <button class="gradient-border-nav">Sign Up</button>
-        </div>
-    </header>
-    <hr>
+            <div class="flex gap-3">
+                <button class="gradient-border-nav">Log In</button>
+                <button class="gradient-border-nav">Sign Up</button>
+            </div>
+        </header>
+        <hr>
 
-    <!-- HERO SECTION - II !!!!!!!!!!!!!!!!!!!! -->
+        <!-- HERO SECTION - II !!!!!!!!!!!!!!!!!!!! -->
 
-    <section class="grid grid-flow-col">
-        <div class="flex flex-col gap-16 justify-center px-20 h-5/6">
-            <span class="hero-text text-7xl tracking-wide leading-tight">
-                Keep Calm & <br>
-                Collect Your NFTs.
-            </span>
+        <section class="grid grid-flow-col relative z-0">
+            <div class="flex flex-col gap-16 justify-center px-20 h-5/6">
+                <span class="hero-text text-7xl tracking-wide leading-tight">
+                    Keep Calm & <br>
+                    Collect Your NFTs.
+                </span>
 
-            <p class="text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id non saepe blanditiis quidem quo! Autem
-                inventore perferendis iusto aspernatur, natus doloremque sequi consequatur veritatis ad nostrum
-                repellendus debitis, et modi?
-            </p>
+                <p class="text-gray-300">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id non saepe blanditiis quidem quo! Autem
+                    inventore perferendis iusto aspernatur, natus doloremque sequi consequatur veritatis ad nostrum
+                    repellendus debitis, et modi?
+                </p>
 
-            <div class="flex items-center gap-7">
-                <i class="fa-solid fa-play fa-2xl drop-shadow-2xl"></i>
+                <div class="flex items-center gap-7">
+                    <i class="fa-solid fa-play fa-2xl drop-shadow-2xl"></i>
 
-                <div class="flex flex-col gap-2">
-                    <span class="text-white font-bold text-xl">Let's get started</span>
-                    <p class="text-gray-200 leading-tight">Watch this quick demo video to see <br>
-                        how to get started.</p>
+                    <div class="flex flex-col gap-2">
+                        <span class="text-white font-bold text-xl">Let's get started</span>
+                        <p class="text-gray-200 leading-tight">Watch this quick demo video to see <br>
+                            how to get started.</p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <img class="relative bottom-20 pr-20" src="../assets/image.png" alt="">
+            <img class="relative bottom-20 pr-20" src="../assets/image.png" alt="">
 
-    </section>
-
+        </section>
+    </div>
     <!-- TOP CREATORS SETIONS - III GOES HERE !!!!!!!!!!!! -->
 
     <section class="py-20 h-full bg-[#160e2a] text-white text-center ">
         <div class="flex justify-center items-center text-3xl">
             <div class="gradient-circle"></div>
-            <h2 class="relative text-4xl right-9">Top Creators</h2>
+            <h2 class="relative text-4xl right-10">Top Creators</h2>
         </div>
-        <img class="m-auto" src="../assets/map.png">
-
+        <!-- <div class="absolute w-full">
+            <img class="absolute usa-one" src="../assets/person.png">
+            <img src="../assets/person.png">
+        </div> -->
+        <img class="m-auto " src="../assets/map.png">
         <div class="gradient-border-all inline-block">
             <button class="px-5 py-2">View All Collectors</button>
         </div>
@@ -79,7 +83,7 @@
 
     <!-- LATEST NFT COLLECTION - IV !!!!!!!!!!!!!! -->
 
-    <section class="grid grid-cols-2 mt-32 -mb-24 ">
+    <section class="grid grid-cols-2 mt-32 -mb-24 nft-bg">
 
         <div class="grid grid-cols-2 place-items-center px-16">
             <div>
@@ -140,7 +144,7 @@
                         <i class="fa-brands fa-ethereum" style="color: #ffffff;"></i>&nbsp; 3.2 ETH
                     </li>
                 </ul>
-                <div class="border-2 border-gray-400 rounded-sm py-[110px] px-[100px] relative bottom-[215px] right-7">
+                <div class="border-2 border-gray-400 rounded-sm py-[110px] px-[100px] relative bottom-[215px] right-7 ">
                 </div>
             </div>
 
@@ -150,7 +154,7 @@
         <div class="px-14 flex flex-col justify-center h-1/2 relative top-14 gap-12">
             <div class="flex items-center text-3xl relative right-7 ">
                 <div class="gradient-circle "></div>
-                <h2 class="relative  text-4xl   right-9 text-white ">Latest NFT Collections</h2>
+                <h2 class="relative  text-4xl   right-10 text-white ">Latest NFT Collections</h2>
             </div>
 
             <p class="text-teal-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus alias eaque
@@ -172,7 +176,7 @@
             <div class="ml-20 grid gap-14">
                 <div class="flex items-center text-3xl relative ">
                     <div class="gradient-circle "></div>
-                    <h2 class="relative text-4xl right-9 text-white ">Why Choose Us?</h2>
+                    <h2 class="relative text-4xl right-10 text-white ">Why Choose Us?</h2>
                 </div>
                 <p class="text-teal-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde magnam
                     aspernatur ipsa enim ad quis harum temporibus consectetur assumenda, beatae fugit at quidem velit
@@ -185,22 +189,27 @@
                     fugit consequuntur aspernatur neque cumque ipsam tempore asperiores?</p>
             </div>
 
-            <div>
-                <div class="light-border h-36 w-52 flex flex-col justify-center items-center">
-                    <img src="../assets/simple-icons_marketo.png">
-                    <span class="text-teal-500">Marketplace</span>
+            <div class="ml-[142px]">
+                <div class="flex gap-4">
+                    <div class="light-border h-40 w-56 flex flex-col justify-center items-center">
+                        <img class="drop-shadow-2xl marketplace" src="../assets/simple-icons_marketo.png">
+                        <span class="text-teal-500">Marketplace</span>
+                    </div>
+                    <div class="light-border h-40 w-56 flex flex-col justify-center items-center">
+                        <img class="money-protection" src="../assets/meoney-protection.png">
+                        <span class="text-teal-500">Money Protection</span>
+                    </div>
                 </div>
-                <div class="light-border h-36 w-52 flex flex-col justify-center items-center">
-                    <img src="../assets/simple-icons_ma">
-                    <span class="text-teal-500">Marketplace</span>
-                </div>
-                <div class="light-border h-36 w-52 flex flex-col justify-center items-center">
-                    <img src="../assets/simple-icons_marketo.png">
-                    <span class="text-teal-500">Marketplace</span>
-                </div>
-                <div class="light-border h-36 w-52 flex flex-col justify-center items-center">
-                    <img src="../assets/simple-icons_marketo.png">
-                    <span class="text-teal-500">Marketplace</span>
+
+                <div class="flex gap-4 ml-16 mt-4">
+                    <div class=" light-border gap-2 h-40 w-56 flex flex-col justify-center items-center">
+                        <img src="../assets/Vector.png">
+                        <span class="text-teal-500">Data Protection</span>
+                    </div>
+                    <div class=" light-border gap-2 h-40 w-56 flex flex-col justify-center items-center">
+                        <img src="../assets/healthicons.png">
+                        <span class="text-teal-500">Fast & Secure</span>
+                    </div>
                 </div>
 
             </div>
@@ -210,10 +219,10 @@
 
     <!-- CREATE AND SELL YOUR NFTs - VI   !!!!!!!!!!!!!  -->
 
-    <section class="py-20">
+    <section class="py-32 sell-nft-border ">
         <div class=" flex items-center mb-20 justify-center text-3xl relative right-7 ">
             <div class="gradient-circle "></div>
-            <h2 class="relative right-9 text-4xl text-white ">Create And Sell Your NFTs</h2>
+            <h2 class="relative right-10 text-4xl text-white ">Create And Sell Your NFTs</h2>
         </div>
 
         <div class="flex gap-24 px-20">
@@ -246,7 +255,7 @@
 
     <!-- READY FOR NEXT NFT DROP - VI     !!!!!!!!!!!!!!!!!!!!! -->
 
-    <section class="text-white text-center py-20">
+    <section class="text-white text-center py-32 ">
         <h3 class="text-4xl mb-10">Ready For Next NFT Drop?</h3>
         <input class="text-center mb-10 bg-neutral-900 placeholder:text-white px-[68px] py-3 rounded-md"
             placeholder="youremail@xyz.com" type="email">
